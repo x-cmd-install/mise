@@ -2,12 +2,12 @@ about:
   description: "dev tools, env vars, task runner"
   license: MIT
   homepage: https://mise.jdx.dev
-  head: 42ab00e
+  head: da8ba6d
   archived: false
   latestVersion: "v2026.9.4"
   latestRelease: "v2026.9.4"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T06:02:29Z
+  collectedAt: 2026-09-10T20:23:43Z
 timeline:
   created: 2023-01-09
   lastCommit: 2026-09-10
@@ -15,16 +15,16 @@ timeline:
   lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 33725
+  star: 33763
   watcher: 51
-  fork: 1425
+  fork: 1428
   release: 629
   contributor: 951
-  pullRequest: 8254
+  pullRequest: 8265
   issue: 0
 language:
-  Rust: 13276866
-  Shell: 2516985
+  Rust: 13339650
+  Shell: 2536096
   PowerShell: 305958
   Ruby: 56942
   Lua: 42328
@@ -37,89 +37,89 @@ language:
   Objective-C: 3373
   JavaScript: 1257
   Batchfile: 3
-totalBytes: 16260861
+totalBytes: 16342756
 recent:
   last30d:
     since: 2026-08-11
     release: 18
-    mergedPR: 781
-    openPR: 29
+    mergedPR: 788
+    openPR: 31
     closedIssue: 0
     openIssue: 0
-    commit: 756
+    commit: 763
   last60d:
     since: 2026-07-12
     release: 32
-    mergedPR: 1483
-    openPR: 30
+    mergedPR: 1490
+    openPR: 32
     closedIssue: 0
     openIssue: 0
-    commit: 1473
+    commit: 1480
   last90d:
     since: 2026-06-12
     release: 49
-    mergedPR: 1871
-    openPR: 30
+    mergedPR: 1878
+    openPR: 32
     closedIssue: 0
     openIssue: 0
-    commit: 1818
+    commit: 1825
   last180d:
     since: 2026-03-14
     release: 100
-    mergedPR: 2942
-    openPR: 31
+    mergedPR: 2949
+    openPR: 33
     closedIssue: 0
     openIssue: 0
-    commit: 2961
+    commit: 2968
   last360d:
     since: 2025-09-15
     release: 100
-    mergedPR: 4222
-    openPR: 31
+    mergedPR: 4229
+    openPR: 33
     closedIssue: 1
     openIssue: 0
-    commit: 4271
+    commit: 4278
   last720d:
     since: 2024-09-20
     release: 100
-    mergedPR: 6020
-    openPR: 31
+    mergedPR: 6027
+    openPR: 33
     closedIssue: 465
     openIssue: 25
-    commit: 6557
+    commit: 6564
 total:
   release: 629
-  mergedPR: 7322
-  openPR: 31
+  mergedPR: 7329
+  openPR: 33
   closedIssue: 0
   openIssue: 0
-  commit: 8976
+  commit: 8983
 ---
 path: /home/runner/.x-repo/github.com/jdx/mise
-collectedAt: 2026-09-10T06:02:44Z
+collectedAt: 2026-09-10T20:24:02Z
 loc:
   Rust:
-    code: 309259
-    comments: 11905
-    blanks: 27630
-    files: 619
+    code: 310760
+    comments: 11936
+    blanks: 27687
+    files: 620
   Yaml:
     code: 105192
     comments: 129
     blanks: 29
     files: 3
   Bash:
-    code: 49224
-    comments: 10973
-    blanks: 11412
-    files: 1032
+    code: 49629
+    comments: 11024
+    blanks: 11459
+    files: 1037
   Toml:
-    code: 10654
+    code: 10659
     comments: 460
     blanks: 746
-    files: 1019
+    files: 1020
   Json:
-    code: 7584
+    code: 7706
     comments: 0
     blanks: 0
     files: 14
@@ -200,8 +200,8 @@ loc:
     files: 2
   Markdown:
     code: 0
-    comments: 39987
-    blanks: 16422
+    comments: 40055
+    blanks: 16439
     files: 373
   Text:
     code: 0
@@ -209,10 +209,10 @@ loc:
     blanks: 283
     files: 5
 total:
-  code: 501961
-  comments: 82628
-  blanks: 61055
-  files: 3399
+  code: 504020
+  comments: 82815
+  blanks: 61180
+  files: 3406
 ---
 
 ---
