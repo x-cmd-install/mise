@@ -1,142 +1,153 @@
-- repo: alpine_3_20
-  subrepo: community
+- repo: arch_testing
+  subrepo: extra-testing
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2024.5.20
-  origversion: 2024.5.20-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager
-  maintainers:
-    - alpine@mise.jdx.dev
+  version: 2026.9.5
+  origversion: 2026.9.5-1
+  status: newest
+  summary: The front-end to your dev env
   licenses:
     - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2024.5.20
-  origversion: 2024.5.20-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager (documentation)
-  maintainers:
-    - alpine@mise.jdx.dev
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
+- repo: arch
+  subrepo: extra
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2024.11.37
-  origversion: 2024.11.37-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager
-  maintainers:
-    - alpine@mise.jdx.dev
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2024.11.37
-  origversion: 2024.11.37-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager (documentation)
-  maintainers:
-    - alpine@mise.jdx.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2025.5.10
-  origversion: 2025.5.10-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2025.5.10
-  origversion: 2025.5.10-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager (documentation)
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2025.8.20
-  origversion: 2025.8.20-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2025.8.20
-  origversion: 2025.8.20-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager (documentation)
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2025.12.13
-  origversion: 2025.12.13-r1
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2025.12.13
-  origversion: 2025.12.13-r1
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: mise
-  visiblename: mise
-  version: 2024.5.9
-  origversion: null
+  version: 2026.9.1
+  origversion: 2026.9.1-1
   status: outdated
   summary: The front-end to your dev env
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2024.5.20
+  origversion: 2024.5.20-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager
   maintainers:
-    - konrad.malik@gmail.com
+    - alpine@mise.jdx.dev
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2024.5.20
+  origversion: 2024.5.20-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager (documentation)
+  maintainers:
+    - alpine@mise.jdx.dev
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2024.11.37
+  origversion: 2024.11.37-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager
+  maintainers:
+    - alpine@mise.jdx.dev
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2024.11.37
+  origversion: 2024.11.37-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager (documentation)
+  maintainers:
+    - alpine@mise.jdx.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2025.5.10
+  origversion: 2025.5.10-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2025.5.10
+  origversion: 2025.5.10-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager (documentation)
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2025.8.20
+  origversion: 2025.8.20-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2025.8.20
+  origversion: 2025.8.20-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager (documentation)
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2025.12.13
+  origversion: 2025.12.13-r1
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2025.12.13
+  origversion: 2025.12.13-r1
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
   licenses:
     - MIT
 - repo: alpine_edge
@@ -209,28 +220,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - devel
-- repo: arch
-  subrepo: extra
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.9.1
-  origversion: 2026.9.1-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.9.4
-  origversion: 2026.9.4-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
 - repo: aur
   srcname: mise-bin
   binname: mise-bin
@@ -449,6 +438,17 @@
   summary: The front-end to your dev env
   licenses:
     - MIT
+- repo: nix_stable_24_05
+  srcname: mise
+  visiblename: mise
+  version: 2024.5.9
+  origversion: null
+  status: outdated
+  summary: The front-end to your dev env
+  maintainers:
+    - konrad.malik@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_24_11
   srcname: mise
   visiblename: mise
@@ -565,9 +565,9 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.9.4
+  version: 2026.9.5
   origversion: null
-  status: outdated
+  status: newest
   summary: dev tools, env vars, task runner
   maintainers:
     - termux@github
