@@ -1,25 +1,16 @@
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.9.5
-  origversion: 2026.9.5-1
-  status: newest
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.9.1
-  origversion: 2026.9.1-1
+- repo: liguros_develop
+  srcname: dev-util/mise
+  visiblename: dev-util/mise
+  version: 2026.3.3
+  origversion: null
   status: outdated
   summary: The front-end to your dev env
+  maintainers:
+    - fallback-mnt-liguros@repology
   licenses:
-    - MIT
+    - MIT Apache-2.0 BSD-2 BSD CDLA-Permissive-2.0 ISC MIT MPL-2.0 openssl Unicode-3.0 ZLIB BZIP2 || ( CC0-1.0 MIT-0 )
+  categories:
+    - dev-util
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -220,12 +211,23 @@
     - fallback-mnt-aosc@repology
   categories:
     - devel
+- repo: arch
+  subrepo: extra
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.9.5
+  origversion: 2026.9.5-1
+  status: outdated
+  summary: The front-end to your dev env
+  licenses:
+    - MIT
 - repo: aur
   srcname: mise-bin
   binname: mise-bin
   visiblename: mise-bin
-  version: 2026.9.5
-  origversion: 2026.9.5-1
+  version: 2026.9.6
+  origversion: 2026.9.6-1
   status: newest
   summary: dev tools, env vars, task runner
   maintainers:
@@ -319,7 +321,7 @@
 - repo: homebrew
   srcname: mise
   visiblename: mise
-  version: 2026.9.5
+  version: 2026.9.6
   origversion: null
   status: newest
   summary: Polyglot runtime manager (asdf rust clone)
@@ -374,19 +376,6 @@
     - Unicode-3.0
     - ZLIB
     - BZIP2
-  categories:
-    - dev-util
-- repo: liguros_develop
-  srcname: dev-util/mise
-  visiblename: dev-util/mise
-  version: 2026.3.3
-  origversion: null
-  status: outdated
-  summary: The front-end to your dev env
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - MIT Apache-2.0 BSD-2 BSD CDLA-Permissive-2.0 ISC MIT MPL-2.0 openssl Unicode-3.0 ZLIB BZIP2 || ( CC0-1.0 MIT-0 )
   categories:
     - dev-util
 - repo: macports
@@ -556,7 +545,7 @@
   subrepo: main
   binname: mise
   visiblename: mise
-  version: 2026.9.5
+  version: 2026.9.6
   origversion: null
   status: newest
   licenses:
@@ -565,7 +554,7 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.9.5
+  version: 2026.9.6
   origversion: null
   status: newest
   summary: dev tools, env vars, task runner
