@@ -14,15 +14,15 @@ x install mise
 
 ## 代码洞察
 
-合计: **651,975** 行代码（覆盖前 5 种语言、共 **3314** 个文件）。
+合计: **654,943** 行代码（覆盖前 5 种语言、共 **3325** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 422,513 | 19,332 | 35,543 | 907 |
-| Yaml | 111,044 | 131 | 743 | 4 |
-| Bash | 70,708 | 15,065 | 14,640 | 1334 |
-| Json | 13,588 | 0 | 0 | 20 |
-| Toml | 11,886 | 515 | 831 | 1049 |
+| Rust | 424,753 | 19,435 | 35,687 | 908 |
+| Yaml | 111,075 | 131 | 743 | 4 |
+| Bash | 71,256 | 15,159 | 14,724 | 1344 |
+| Json | 13,662 | 0 | 0 | 20 |
+| Toml | 11,961 | 515 | 834 | 1049 |
 
 ## 源代码
 
@@ -32,85 +32,85 @@ x install mise
 
 ## 发布
 
-- **最新版本**: `v2026.10.5` (2026-10-08)
+- **最新版本**: `v2026.10.7` (2026-10-09)
 - **最近提交**: 2026-10-09
 - **Release 含资产**: 52 个
 
 ## 流行度
 
-- **Star**: 34,803 · **Fork**: 1,467 · **开放 issue**: 1,630 · **贡献者**: 974
+- **Star**: 34,861 · **Fork**: 1,470 · **开放 issue**: 1,638 · **贡献者**: 975
 
 ## 累计统计
 
-- **发布数**: 649 · **已合并 PR**: 8149 · **开放 PR**: 5 · **已关闭 issue**: 1630 · **开放 issue**: 0 · **提交数**: 9818
+- **发布数**: 651 · **已合并 PR**: 8173 · **开放 PR**: 8 · **已关闭 issue**: 1636 · **开放 issue**: 2 · **提交数**: 9842
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-09 | 21 | 820 | 5 | 60 | 0 | 820 |
-| last60d | 2026-08-10 | 38 | 1650 | 5 | 60 | 0 | 1644 |
-| 90d | 2026-07-11 | 52 | 2321 | 5 | 60 | 0 | 2338 |
-| last180d | 2026-04-12 | 100 | 3508 | 5 | 60 | 0 | 3534 |
-| 360d | 2025-10-14 | 100 | 4860 | 5 | 60 | 0 | 4918 |
-| last720d | 2024-10-19 | 100 | 6750 | 5 | 496 | 0 | 7240 |
+| 30d | 2026-09-10 | 22 | 822 | 8 | 66 | 2 | 844 |
+| last60d | 2026-08-11 | 40 | 1632 | 8 | 66 | 2 | 1668 |
+| 90d | 2026-07-12 | 54 | 2334 | 8 | 66 | 2 | 2362 |
+| last180d | 2026-04-13 | 100 | 3528 | 8 | 66 | 2 | 3558 |
+| 360d | 2025-10-15 | 100 | 4880 | 8 | 66 | 2 | 4942 |
+| last720d | 2024-10-20 | 100 | 6774 | 8 | 502 | 2 | 7264 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [install.sh](https://github.com/jdx/mise/releases/download/v2026.10.5/install.sh) | 14.8 KiB | `other` |
-| [install.sh.minisig](https://github.com/jdx/mise/releases/download/v2026.10.5/install.sh.minisig) | 305 B | `other` |
-| [install.sh.sig](https://github.com/jdx/mise/releases/download/v2026.10.5/install.sh.sig) | 5.6 KiB | `other` |
-| [mise-v2026.10.5-linux-arm64](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64) | 132.9 MiB | `native/linux/arm64` |
-| [mise-v2026.10.5-linux-arm64-musl](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64-musl) | 133.0 MiB | `native/linux/arm64/musl` |
-| [mise-v2026.10.5-linux-arm64-musl.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64-musl.tar.gz) | 52.1 MiB | `native/linux/arm64/musl` |
-| [mise-v2026.10.5-linux-arm64-musl.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64-musl.tar.xz) | 29.7 MiB | `native/linux/arm64/musl` |
-| [mise-v2026.10.5-linux-arm64-musl.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64-musl.tar.zst) | 36.4 MiB | `native/linux/arm64/musl` |
-| [mise-v2026.10.5-linux-arm64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64.tar.gz) | 51.9 MiB | `native/linux/arm64` |
-| [mise-v2026.10.5-linux-arm64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64.tar.xz) | 29.5 MiB | `native/linux/arm64` |
-| [mise-v2026.10.5-linux-arm64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-arm64.tar.zst) | 36.3 MiB | `native/linux/arm64` |
-| [mise-v2026.10.5-linux-armv7](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7) | 140.7 MiB | `native/linux/arm` |
-| [mise-v2026.10.5-linux-armv7-musl](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7-musl) | 141.0 MiB | `native/linux/arm/musl` |
-| [mise-v2026.10.5-linux-armv7-musl.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7-musl.tar.gz) | 54.6 MiB | `native/linux/arm/musl` |
-| [mise-v2026.10.5-linux-armv7-musl.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7-musl.tar.xz) | 31.5 MiB | `native/linux/arm/musl` |
-| [mise-v2026.10.5-linux-armv7-musl.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7-musl.tar.zst) | 39.0 MiB | `native/linux/arm/musl` |
-| [mise-v2026.10.5-linux-armv7.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7.tar.gz) | 55.3 MiB | `native/linux/arm` |
-| [mise-v2026.10.5-linux-armv7.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7.tar.xz) | 32.0 MiB | `native/linux/arm` |
-| [mise-v2026.10.5-linux-armv7.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-armv7.tar.zst) | 39.6 MiB | `native/linux/arm` |
-| [mise-v2026.10.5-linux-x64](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64) | 151.6 MiB | `other` |
-| [mise-v2026.10.5-linux-x64-musl](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64-musl) | 136.1 MiB | `other` |
-| [mise-v2026.10.5-linux-x64-musl.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64-musl.tar.gz) | 46.7 MiB | `native/unknown` |
-| [mise-v2026.10.5-linux-x64-musl.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64-musl.tar.xz) | 29.0 MiB | `other` |
-| [mise-v2026.10.5-linux-x64-musl.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64-musl.tar.zst) | 33.0 MiB | `other` |
-| [mise-v2026.10.5-linux-x64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64.tar.gz) | 51.1 MiB | `native/unknown` |
-| [mise-v2026.10.5-linux-x64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64.tar.xz) | 30.4 MiB | `other` |
-| [mise-v2026.10.5-linux-x64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-linux-x64.tar.zst) | 36.5 MiB | `other` |
-| [mise-v2026.10.5-macos-arm64](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-arm64) | 120.6 MiB | `native/darwin/arm64` |
-| [mise-v2026.10.5-macos-arm64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-arm64.tar.gz) | 41.1 MiB | `native/darwin/arm64` |
-| [mise-v2026.10.5-macos-arm64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-arm64.tar.xz) | 24.7 MiB | `native/darwin/arm64` |
-| [mise-v2026.10.5-macos-arm64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-arm64.tar.zst) | 37.3 MiB | `native/darwin/arm64` |
-| [mise-v2026.10.5-macos-x64](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-x64) | 147.0 MiB | `native/darwin/x64` |
-| [mise-v2026.10.5-macos-x64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-x64.tar.gz) | 54.4 MiB | `native/darwin/x64` |
-| [mise-v2026.10.5-macos-x64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-x64.tar.xz) | 35.4 MiB | `native/darwin/x64` |
-| [mise-v2026.10.5-macos-x64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-x64.tar.zst) | 49.8 MiB | `native/darwin/x64` |
-| [mise-v2026.10.5-windows-arm64.exe](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-windows-arm64.exe) | 180.3 MiB | `native/win/arm64` |
-| [mise-v2026.10.5-windows-arm64.zip](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-windows-arm64.zip) | 61.4 MiB | `native/win/arm64` |
-| [mise-v2026.10.5-windows-x64.exe](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-windows-x64.exe) | 195.4 MiB | `native/win/x64` |
-| [mise-v2026.10.5-windows-x64.zip](https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-windows-x64.zip) | 63.5 MiB | `native/win/x64` |
-| [mise.bash](https://github.com/jdx/mise/releases/download/v2026.10.5/mise.bash) | 3.9 KiB | `other` |
-| [mise.fish](https://github.com/jdx/mise/releases/download/v2026.10.5/mise.fish) | 3.0 KiB | `other` |
-| [mise.powershell](https://github.com/jdx/mise/releases/download/v2026.10.5/mise.powershell) | 4.5 KiB | `other` |
-| [mise.usage.kdl](https://github.com/jdx/mise/releases/download/v2026.10.5/mise.usage.kdl) | 430.0 KiB | `other` |
-| [mise.zsh](https://github.com/jdx/mise/releases/download/v2026.10.5/mise.zsh) | 4.1 KiB | `other` |
-| [packslip.sigstore.json](https://github.com/jdx/mise/releases/download/v2026.10.5/packslip.sigstore.json) | 39.7 KiB | `other` |
-| [SHASUMS256.asc](https://github.com/jdx/mise/releases/download/v2026.10.5/SHASUMS256.asc) | 4.5 KiB | `other` |
-| [SHASUMS256.txt](https://github.com/jdx/mise/releases/download/v2026.10.5/SHASUMS256.txt) | 3.6 KiB | `other` |
-| [SHASUMS256.txt.minisig](https://github.com/jdx/mise/releases/download/v2026.10.5/SHASUMS256.txt.minisig) | 309 B | `other` |
-| [SHASUMS512.asc](https://github.com/jdx/mise/releases/download/v2026.10.5/SHASUMS512.asc) | 6.9 KiB | `other` |
-| [SHASUMS512.txt](https://github.com/jdx/mise/releases/download/v2026.10.5/SHASUMS512.txt) | 6.0 KiB | `other` |
-| [SHASUMS512.txt.minisig](https://github.com/jdx/mise/releases/download/v2026.10.5/SHASUMS512.txt.minisig) | 309 B | `other` |
-| [v2026.10.5.tar.gz.sig](https://github.com/jdx/mise/releases/download/v2026.10.5/v2026.10.5.tar.gz.sig) | 566 B | `other` |
+| [install.sh](https://github.com/jdx/mise/releases/download/v2026.10.7/install.sh) | 14.8 KiB | `other` |
+| [install.sh.minisig](https://github.com/jdx/mise/releases/download/v2026.10.7/install.sh.minisig) | 305 B | `other` |
+| [install.sh.sig](https://github.com/jdx/mise/releases/download/v2026.10.7/install.sh.sig) | 5.6 KiB | `other` |
+| [mise-v2026.10.7-linux-arm64](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64) | 133.6 MiB | `native/linux/arm64` |
+| [mise-v2026.10.7-linux-arm64-musl](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64-musl) | 133.7 MiB | `native/linux/arm64/musl` |
+| [mise-v2026.10.7-linux-arm64-musl.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64-musl.tar.gz) | 52.4 MiB | `native/linux/arm64/musl` |
+| [mise-v2026.10.7-linux-arm64-musl.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64-musl.tar.xz) | 29.9 MiB | `native/linux/arm64/musl` |
+| [mise-v2026.10.7-linux-arm64-musl.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64-musl.tar.zst) | 36.6 MiB | `native/linux/arm64/musl` |
+| [mise-v2026.10.7-linux-arm64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64.tar.gz) | 52.2 MiB | `native/linux/arm64` |
+| [mise-v2026.10.7-linux-arm64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64.tar.xz) | 29.8 MiB | `native/linux/arm64` |
+| [mise-v2026.10.7-linux-arm64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-arm64.tar.zst) | 36.5 MiB | `native/linux/arm64` |
+| [mise-v2026.10.7-linux-armv7](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7) | 141.0 MiB | `native/linux/arm` |
+| [mise-v2026.10.7-linux-armv7-musl](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7-musl) | 141.6 MiB | `native/linux/arm/musl` |
+| [mise-v2026.10.7-linux-armv7-musl.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7-musl.tar.gz) | 54.8 MiB | `native/linux/arm/musl` |
+| [mise-v2026.10.7-linux-armv7-musl.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7-musl.tar.xz) | 31.6 MiB | `native/linux/arm/musl` |
+| [mise-v2026.10.7-linux-armv7-musl.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7-musl.tar.zst) | 39.1 MiB | `native/linux/arm/musl` |
+| [mise-v2026.10.7-linux-armv7.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7.tar.gz) | 55.3 MiB | `native/linux/arm` |
+| [mise-v2026.10.7-linux-armv7.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7.tar.xz) | 32.1 MiB | `native/linux/arm` |
+| [mise-v2026.10.7-linux-armv7.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-armv7.tar.zst) | 39.8 MiB | `native/linux/arm` |
+| [mise-v2026.10.7-linux-x64](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64) | 153.6 MiB | `other` |
+| [mise-v2026.10.7-linux-x64-musl](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64-musl) | 136.7 MiB | `other` |
+| [mise-v2026.10.7-linux-x64-musl.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64-musl.tar.gz) | 47.0 MiB | `native/unknown` |
+| [mise-v2026.10.7-linux-x64-musl.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64-musl.tar.xz) | 29.1 MiB | `other` |
+| [mise-v2026.10.7-linux-x64-musl.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64-musl.tar.zst) | 33.2 MiB | `other` |
+| [mise-v2026.10.7-linux-x64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64.tar.gz) | 51.2 MiB | `native/unknown` |
+| [mise-v2026.10.7-linux-x64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64.tar.xz) | 30.5 MiB | `other` |
+| [mise-v2026.10.7-linux-x64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-linux-x64.tar.zst) | 36.6 MiB | `other` |
+| [mise-v2026.10.7-macos-arm64](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-arm64) | 121.4 MiB | `native/darwin/arm64` |
+| [mise-v2026.10.7-macos-arm64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-arm64.tar.gz) | 41.3 MiB | `native/darwin/arm64` |
+| [mise-v2026.10.7-macos-arm64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-arm64.tar.xz) | 24.8 MiB | `native/darwin/arm64` |
+| [mise-v2026.10.7-macos-arm64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-arm64.tar.zst) | 37.6 MiB | `native/darwin/arm64` |
+| [mise-v2026.10.7-macos-x64](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-x64) | 148.6 MiB | `native/darwin/x64` |
+| [mise-v2026.10.7-macos-x64.tar.gz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-x64.tar.gz) | 55.0 MiB | `native/darwin/x64` |
+| [mise-v2026.10.7-macos-x64.tar.xz](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-x64.tar.xz) | 35.7 MiB | `native/darwin/x64` |
+| [mise-v2026.10.7-macos-x64.tar.zst](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-macos-x64.tar.zst) | 50.2 MiB | `native/darwin/x64` |
+| [mise-v2026.10.7-windows-arm64.exe](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-windows-arm64.exe) | 180.6 MiB | `native/win/arm64` |
+| [mise-v2026.10.7-windows-arm64.zip](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-windows-arm64.zip) | 61.7 MiB | `native/win/arm64` |
+| [mise-v2026.10.7-windows-x64.exe](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-windows-x64.exe) | 196.9 MiB | `native/win/x64` |
+| [mise-v2026.10.7-windows-x64.zip](https://github.com/jdx/mise/releases/download/v2026.10.7/mise-v2026.10.7-windows-x64.zip) | 64.0 MiB | `native/win/x64` |
+| [mise.bash](https://github.com/jdx/mise/releases/download/v2026.10.7/mise.bash) | 3.9 KiB | `other` |
+| [mise.fish](https://github.com/jdx/mise/releases/download/v2026.10.7/mise.fish) | 3.0 KiB | `other` |
+| [mise.powershell](https://github.com/jdx/mise/releases/download/v2026.10.7/mise.powershell) | 4.5 KiB | `other` |
+| [mise.usage.kdl](https://github.com/jdx/mise/releases/download/v2026.10.7/mise.usage.kdl) | 439.0 KiB | `other` |
+| [mise.zsh](https://github.com/jdx/mise/releases/download/v2026.10.7/mise.zsh) | 4.1 KiB | `other` |
+| [packslip.sigstore.json](https://github.com/jdx/mise/releases/download/v2026.10.7/packslip.sigstore.json) | 39.9 KiB | `other` |
+| [SHASUMS256.asc](https://github.com/jdx/mise/releases/download/v2026.10.7/SHASUMS256.asc) | 4.5 KiB | `other` |
+| [SHASUMS256.txt](https://github.com/jdx/mise/releases/download/v2026.10.7/SHASUMS256.txt) | 3.6 KiB | `other` |
+| [SHASUMS256.txt.minisig](https://github.com/jdx/mise/releases/download/v2026.10.7/SHASUMS256.txt.minisig) | 309 B | `other` |
+| [SHASUMS512.asc](https://github.com/jdx/mise/releases/download/v2026.10.7/SHASUMS512.asc) | 6.9 KiB | `other` |
+| [SHASUMS512.txt](https://github.com/jdx/mise/releases/download/v2026.10.7/SHASUMS512.txt) | 6.0 KiB | `other` |
+| [SHASUMS512.txt.minisig](https://github.com/jdx/mise/releases/download/v2026.10.7/SHASUMS512.txt.minisig) | 309 B | `other` |
+| [v2026.10.7.tar.gz.sig](https://github.com/jdx/mise/releases/download/v2026.10.7/v2026.10.7.tar.gz.sig) | 566 B | `other` |
 
 ## 改进这些数据
 
@@ -121,4 +121,4 @@ mise 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261009.yml` · 2026-10-09T07:05:11Z._
+_数据快照: `data/card/261010.yml` · 2026-10-10T06:49:10Z._
