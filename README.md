@@ -14,15 +14,15 @@ x install mise
 
 ## Code insight
 
-Total: **713,100** lines of code across **3551** files in the top 5 languages.
+Total: **714,762** lines of code across **3556** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 466,219 | 21,068 | 38,796 | 1025 |
+| Rust | 467,632 | 21,171 | 38,890 | 1025 |
 | Yaml | 111,696 | 131 | 773 | 4 |
-| Bash | 76,288 | 16,169 | 15,525 | 1438 |
-| Json | 18,798 | 0 | 0 | 22 |
-| Toml | 12,722 | 534 | 867 | 1062 |
+| Bash | 76,505 | 16,205 | 15,566 | 1443 |
+| Json | 18,819 | 0 | 0 | 22 |
+| Toml | 12,728 | 534 | 867 | 1062 |
 
 ## Source
 
@@ -33,27 +33,27 @@ Total: **713,100** lines of code across **3551** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v2026.10.17` (2026-10-21)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-10-23
 - **Assets in release**: 55
 
 ## Popularity
 
-- **Stars**: 35,249 · **Forks**: 1,493 · **Open issues**: 1,716 · **Contributors**: 994
+- **Stars**: 35,288 · **Forks**: 1,494 · **Open issues**: 1,724 · **Contributors**: 1,000
 
 ## Totals (cumulative)
 
-- **Releases**: 660 · **Merged PRs**: 8549 · **Open PRs**: 8 · **Closed issues**: 1714 · **Open issues**: 2 · **Commits**: 10222
+- **Releases**: 660 · **Merged PRs**: 8572 · **Open PRs**: 9 · **Closed issues**: 1724 · **Open issues**: 0 · **Commits**: 10245
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 23 | 931 | 8 | 144 | 2 | 1407 |
-| last60d | 2026-08-23 | 42 | 1699 | 8 | 144 | 2 | 2427 |
-| 90d | 2026-07-24 | 59 | 2474 | 8 | 144 | 2 | 3311 |
-| last180d | 2026-04-25 | 100 | 3687 | 8 | 144 | 2 | 4821 |
-| 360d | 2025-10-27 | 100 | 5192 | 8 | 144 | 2 | 7487 |
-| last720d | 2024-11-01 | 100 | 7088 | 8 | 545 | 2 | 7580 |
+| 30d | 2026-09-23 | 23 | 899 | 9 | 153 | 0 | 1460 |
+| last60d | 2026-08-24 | 41 | 1685 | 9 | 154 | 0 | 2480 |
+| 90d | 2026-07-25 | 58 | 2476 | 9 | 154 | 0 | 3364 |
+| last180d | 2026-04-26 | 100 | 3694 | 9 | 154 | 0 | 4874 |
+| 360d | 2025-10-28 | 100 | 5207 | 9 | 154 | 0 | 7540 |
+| last720d | 2024-11-02 | 100 | 7108 | 9 | 553 | 0 | 7595 |
 
 ## Release assets
 
@@ -115,6 +115,18 @@ Total: **713,100** lines of code across **3551** files in the top 5 languages.
 | [SHASUMS512.txt.minisig](https://github.com/jdx/mise/releases/download/v2026.10.17/SHASUMS512.txt.minisig) | 309 B | `other` |
 | [v2026.10.17.tar.gz.sig](https://github.com/jdx/mise/releases/download/v2026.10.17/v2026.10.17.tar.gz.sig) | 566 B | `other` |
 
+## Distribution status
+
+Reported by **45** distros on [repology.org](https://repology.org/project/mise). **8** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `2026.10.17` | ✅ latest |
+| Homebrew | `2026.10.17` | ✅ latest |
+| Nix unstable | `2026.10.3` | ⚠️ outdated |
+| Void | `2026.8.2` | ⚠️ outdated |
+| Alpine edge | `2026.9.18` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for mise lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mise` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -124,4 +136,4 @@ Install metadata for mise lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:48:37Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:49:04Z._
