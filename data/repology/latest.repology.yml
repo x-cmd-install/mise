@@ -1,14 +1,10 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: homebrew
   srcname: mise
-  binname: mise
   visiblename: mise
-  version: 2026.10.17
-  origversion: 2026.10.17-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Polyglot runtime manager (asdf rust clone)
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -72,18 +68,6 @@
   summary: Polyglot runtime and dev tool version manager
   maintainers:
     - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: aur
-  srcname: mise-git
-  binname: mise-git
-  visiblename: mise-git
-  version: 2026.4.23.r0.g9225550
-  origversion: 2026.4.23.r0.g9225550-1
-  status: rolling
-  summary: The front-end to your dev env
-  maintainers:
-    - justbispo@aur
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -226,8 +210,8 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.17
-  origversion: 2026.10.17-1
+  version: 2026.10.18
+  origversion: 2026.10.18-1
   status: outdated
   summary: The front-end to your dev env
   licenses:
@@ -236,12 +220,24 @@
   srcname: mise-bin
   binname: mise-bin
   visiblename: mise-bin
-  version: 2026.10.18
-  origversion: 2026.10.18-1
+  version: 2026.10.19
+  origversion: 2026.10.19-1
   status: newest
   summary: dev tools, env vars, task runner
   maintainers:
     - czyt@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: mise-git
+  binname: mise-git
+  visiblename: mise-git
+  version: 2026.4.23.r0.g9225550
+  origversion: 2026.4.23.r0.g9225550-1
+  status: rolling
+  summary: The front-end to your dev env
+  maintainers:
+    - justbispo@aur
   licenses:
     - MIT
 - repo: chimera
@@ -319,22 +315,15 @@
 - repo: homebrew
   srcname: mise
   visiblename: mise
-  version: 2026.10.18
+  version: 2026.10.19
   origversion: null
   status: newest
-  summary: Polyglot runtime manager (asdf rust clone)
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Polyglot runtime manager (asdf rust clone)
 - repo: macports
   srcname: sysutils/mise
   binname: mise
   visiblename: mise
-  version: 2026.10.17
+  version: 2026.10.18
   origversion: null
   status: outdated
   summary: dev tools, env vars, task runner (formerly called 'rtx')
@@ -364,6 +353,17 @@
   visiblename: mise
   version: 2026.10.3
   origversion: 2026.10.3-1
+  status: outdated
+  summary: The front-end to your dev env
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.10.17
+  origversion: 2026.10.17-1
   status: outdated
   summary: The front-end to your dev env
   licenses:
@@ -440,8 +440,8 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.17
-  origversion: 2026.10.17-1
+  version: 2026.10.18
+  origversion: 2026.10.18-1
   status: outdated
   summary: The front-end to your dev env
   licenses:
@@ -486,7 +486,7 @@
   subrepo: main
   binname: mise
   visiblename: mise
-  version: 2026.10.18
+  version: 2026.10.19
   origversion: null
   status: newest
   licenses:
@@ -495,7 +495,7 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.18
+  version: 2026.10.19
   origversion: null
   status: newest
   summary: dev tools, env vars, task runner
