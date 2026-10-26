@@ -1,10 +1,48 @@
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: HEAD
+- repo: chocolatey
+  binname: mise
+  visiblename: mise-en-place
+  version: 2026.10.8
   origversion: null
-  status: rolling
-  summary: Polyglot runtime manager (asdf rust clone)
+  status: outdated
+  summary: The front-end to your dev env.
+- repo: alpine_3_22
+  subrepo: community
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2025.5.10
+  origversion: 2025.5.10-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager (documentation)
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: pkgsrc_2026_2
+  srcname: devel/mise
+  binname: mise
+  visiblename: devel/mise
+  version: 2026.6.3
+  origversion: null
+  status: outdated
+  summary: Polyglot tool version manager like asdf
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: alpine_3_22
+  subrepo: community
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2025.5.10
+  origversion: 2025.5.10-r0
+  status: outdated
+  summary: Polyglot runtime and dev tool version manager
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -55,32 +93,6 @@
   summary: Polyglot runtime and dev tool version manager (documentation)
   maintainers:
     - alpine@mise.jdx.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2025.5.10
-  origversion: 2025.5.10-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2025.5.10
-  origversion: 2025.5.10-r0
-  status: outdated
-  summary: Polyglot runtime and dev tool version manager (documentation)
-  maintainers:
-    - hi@fabricio.dev
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -94,6 +106,17 @@
   summary: Polyglot runtime and dev tool version manager
   maintainers:
     - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise-man
+  visiblename: mise-man
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool (manual pages)
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -210,9 +233,9 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.18
-  origversion: 2026.10.18-1
-  status: outdated
+  version: 2026.10.19
+  origversion: 2026.10.19-1
+  status: newest
   summary: The front-end to your dev env
   licenses:
     - MIT
@@ -262,31 +285,13 @@
   summary: Development environment setup tool (documentation)
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise-man
-  visiblename: mise-man
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool (manual pages)
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: mise
-  visiblename: mise-en-place
-  version: 2026.10.1
-  origversion: null
-  status: outdated
-  summary: The front-end to your dev env.
 - repo: exherbo
   subrepo: CleverCloud
   srcname: dev-util/mise
   visiblename: dev-util/mise
-  version: 2026.10.17
+  version: 2026.10.19
   origversion: null
-  status: outdated
+  status: newest
   summary: dev tools, env vars, task runner
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -318,6 +323,13 @@
   version: 2026.10.19
   origversion: null
   status: newest
+  summary: Polyglot runtime manager (asdf rust clone)
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: HEAD
+  origversion: null
+  status: rolling
   summary: Polyglot runtime manager (asdf rust clone)
 - repo: macports
   srcname: sysutils/mise
@@ -440,24 +452,12 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.18
-  origversion: 2026.10.18-1
-  status: outdated
+  version: 2026.10.19
+  origversion: 2026.10.19-1
+  status: newest
   summary: The front-end to your dev env
   licenses:
     - MIT
-- repo: pkgsrc_2026_2
-  srcname: devel/mise
-  binname: mise
-  visiblename: devel/mise
-  version: 2026.6.3
-  origversion: null
-  status: outdated
-  summary: Polyglot tool version manager like asdf
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
 - repo: pkgsrc_2026_3
   srcname: devel/mise
   binname: mise
