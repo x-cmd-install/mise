@@ -1,37 +1,18 @@
+- repo: arch
+  subrepo: extra
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.10.24
+  origversion: 2026.10.24-1
+  status: outdated
+  summary: The front-end to your dev env
+  licenses:
+    - MIT
 - repo: nix_stable_25_11
   srcname: mise
   visiblename: mise
   version: 2025.11.7
-  origversion: null
-  status: outdated
-  summary: Front-end to your dev env
-  maintainers:
-    - konrad.malik@gmail.com
-  licenses:
-    - MIT
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: 2026.10.24
-  origversion: null
-  status: newest
-  summary: Polyglot runtime manager (asdf rust clone)
-- repo: aur
-  srcname: mise-bin
-  binname: mise-bin
-  visiblename: mise-bin
-  version: 2026.10.24
-  origversion: 2026.10.24-1
-  status: newest
-  summary: dev tools, env vars, task runner
-  maintainers:
-    - czyt@aur
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: mise
-  visiblename: mise
-  version: 2025.5.3
   origversion: null
   status: outdated
   summary: Front-end to your dev env
@@ -52,13 +33,6 @@
     - alpine@mise.jdx.dev
   licenses:
     - MIT
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Polyglot runtime manager (asdf rust clone)
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -109,6 +83,18 @@
   summary: Polyglot runtime and dev tool version manager
   maintainers:
     - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: aur
+  srcname: mise-git
+  binname: mise-git
+  visiblename: mise-git
+  version: 2026.4.23.r0.g9225550
+  origversion: 2026.4.23.r0.g9225550-1
+  status: rolling
+  summary: The front-end to your dev env
+  maintainers:
+    - justbispo@aur
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -246,27 +232,16 @@
     - fallback-mnt-aosc@repology
   categories:
     - devel
-- repo: arch
-  subrepo: extra
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.10.22
-  origversion: 2026.10.22-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
 - repo: aur
-  srcname: mise-git
-  binname: mise-git
-  visiblename: mise-git
-  version: 2026.4.23.r0.g9225550
-  origversion: 2026.4.23.r0.g9225550-1
-  status: rolling
-  summary: The front-end to your dev env
+  srcname: mise-bin
+  binname: mise-bin
+  visiblename: mise-bin
+  version: 2026.10.25
+  origversion: 2026.10.25-1
+  status: newest
+  summary: dev tools, env vars, task runner
   maintainers:
-    - justbispo@aur
+    - czyt@aur
   licenses:
     - MIT
 - repo: chimera
@@ -341,13 +316,27 @@
   origversion: null
   status: outdated
   summary: Polyglot version manager, task runner, and environment manager
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: 2026.10.25
+  origversion: null
+  status: newest
+  summary: Polyglot runtime manager (asdf rust clone)
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Polyglot runtime manager (asdf rust clone)
 - repo: macports
   srcname: sysutils/mise
   binname: mise
   visiblename: mise
   version: 2026.10.24
   origversion: null
-  status: newest
+  status: outdated
   summary: dev tools, env vars, task runner (formerly called 'rtx')
   maintainers:
     - mislink@github
@@ -412,6 +401,17 @@
     - konrad.malik@gmail.com
   licenses:
     - MIT
+- repo: nix_stable_25_05
+  srcname: mise
+  visiblename: mise
+  version: 2025.5.3
+  origversion: null
+  status: outdated
+  summary: Front-end to your dev env
+  maintainers:
+    - konrad.malik@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: mise
   visiblename: mise
@@ -440,8 +440,8 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.22
-  origversion: 2026.10.22-1
+  version: 2026.10.24
+  origversion: 2026.10.24-1
   status: outdated
   summary: The front-end to your dev env
   licenses:
@@ -486,7 +486,7 @@
   subrepo: main
   binname: mise
   visiblename: mise
-  version: 2026.10.24
+  version: 2026.10.25
   origversion: null
   status: newest
   licenses:
@@ -505,25 +505,12 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.24
+  version: 2026.10.25
   origversion: null
   status: newest
   summary: dev tools, env vars, task runner
   maintainers:
     - termux@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.10.17
-  origversion: 2026.10.17_1
-  status: outdated
-  summary: Polyglot runtime manager (asdf rust clone)
-  maintainers:
-    - daniel@teddydd.me
-  licenses:
-    - MIT
 - repo: void_x86_64
   subrepo: x86_64
   srcname: mise
@@ -533,6 +520,19 @@
   origversion: 2026.10.17_1
   status: outdated
   summary: Polyglot runtime manager (asdf rust clone) (transitional dummy package)
+  maintainers:
+    - daniel@teddydd.me
+  licenses:
+    - MIT
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.10.17
+  origversion: 2026.10.17_1
+  status: outdated
+  summary: Polyglot runtime manager (asdf rust clone)
   maintainers:
     - daniel@teddydd.me
   licenses:
