@@ -1,3 +1,67 @@
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise-man
+  visiblename: mise-man
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool (manual pages)
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: mise
+  visiblename: mise-en-place
+  version: 2026.10.12
+  origversion: null
+  status: outdated
+  summary: The front-end to your dev env.
+- repo: aur
+  srcname: mise-bin
+  binname: mise-bin
+  visiblename: mise-bin
+  version: 2026.10.25
+  origversion: 2026.10.25-1
+  status: newest
+  summary: dev tools, env vars, task runner
+  maintainers:
+    - czyt@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: mise-git
+  binname: mise-git
+  visiblename: mise-git
+  version: 2026.4.23.r0.g9225550
+  origversion: 2026.4.23.r0.g9225550-1
+  status: rolling
+  summary: The front-end to your dev env
+  maintainers:
+    - justbispo@aur
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: mise
@@ -7,17 +71,6 @@
   origversion: 2026.10.24-1
   status: outdated
   summary: The front-end to your dev env
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: mise
-  visiblename: mise
-  version: 2025.11.7
-  origversion: null
-  status: outdated
-  summary: Front-end to your dev env
-  maintainers:
-    - konrad.malik@gmail.com
   licenses:
     - MIT
 - repo: alpine_3_20
@@ -83,18 +136,6 @@
   summary: Polyglot runtime and dev tool version manager
   maintainers:
     - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: aur
-  srcname: mise-git
-  binname: mise-git
-  visiblename: mise-git
-  version: 2026.4.23.r0.g9225550
-  origversion: 2026.4.23.r0.g9225550-1
-  status: rolling
-  summary: The front-end to your dev env
-  maintainers:
-    - justbispo@aur
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -232,58 +273,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - devel
-- repo: aur
-  srcname: mise-bin
-  binname: mise-bin
-  visiblename: mise-bin
-  version: 2026.10.25
-  origversion: 2026.10.25-1
-  status: newest
-  summary: dev tools, env vars, task runner
-  maintainers:
-    - czyt@aur
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise-man
-  visiblename: mise-man
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool (manual pages)
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: mise
-  visiblename: mise-en-place
-  version: 2026.10.8
-  origversion: null
-  status: outdated
-  summary: The front-end to your dev env.
 - repo: exherbo
   subrepo: CleverCloud
   srcname: dev-util/mise
@@ -346,28 +335,6 @@
     - MIT
   categories:
     - sysutils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.9.1
-  origversion: 2026.9.1-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.10.3
-  origversion: 2026.10.3-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: mise
@@ -405,6 +372,17 @@
   srcname: mise
   visiblename: mise
   version: 2025.5.3
+  origversion: null
+  status: outdated
+  summary: Front-end to your dev env
+  maintainers:
+    - konrad.malik@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: mise
+  visiblename: mise
+  version: 2025.11.7
   origversion: null
   status: outdated
   summary: Front-end to your dev env
@@ -514,12 +492,12 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: mise
-  binname: rtx
-  visiblename: rtx
+  binname: mise
+  visiblename: mise
   version: 2026.10.17
   origversion: 2026.10.17_1
   status: outdated
-  summary: Polyglot runtime manager (asdf rust clone) (transitional dummy package)
+  summary: Polyglot runtime manager (asdf rust clone)
   maintainers:
     - daniel@teddydd.me
   licenses:
@@ -527,12 +505,12 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: mise
-  binname: mise
-  visiblename: mise
+  binname: rtx
+  visiblename: rtx
   version: 2026.10.17
   origversion: 2026.10.17_1
   status: outdated
-  summary: Polyglot runtime manager (asdf rust clone)
+  summary: Polyglot runtime manager (asdf rust clone) (transitional dummy package)
   maintainers:
     - daniel@teddydd.me
   licenses:
