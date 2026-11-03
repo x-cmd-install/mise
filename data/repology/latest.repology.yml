@@ -1,78 +1,3 @@
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise-doc
-  visiblename: mise-doc
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: mise
-  binname: mise-man
-  visiblename: mise-man
-  version: 2026.4.11
-  origversion: 2026.4.11-r1
-  status: outdated
-  summary: Development environment setup tool (manual pages)
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: mise
-  visiblename: mise-en-place
-  version: 2026.10.12
-  origversion: null
-  status: outdated
-  summary: The front-end to your dev env.
-- repo: aur
-  srcname: mise-bin
-  binname: mise-bin
-  visiblename: mise-bin
-  version: 2026.10.25
-  origversion: 2026.10.25-1
-  status: newest
-  summary: dev tools, env vars, task runner
-  maintainers:
-    - czyt@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: mise-git
-  binname: mise-git
-  visiblename: mise-git
-  version: 2026.4.23.r0.g9225550
-  origversion: 2026.4.23.r0.g9225550-1
-  status: rolling
-  summary: The front-end to your dev env
-  maintainers:
-    - justbispo@aur
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: mise
-  binname: mise
-  visiblename: mise
-  version: 2026.10.24
-  origversion: 2026.10.24-1
-  status: outdated
-  summary: The front-end to your dev env
-  licenses:
-    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -229,6 +154,18 @@
     - rtmongold@gmail.com
   licenses:
     - MIT
+- repo: pkgsrc_current
+  srcname: devel/mise
+  binname: mise
+  visiblename: devel/mise
+  version: 2026.9.13
+  origversion: 2026.9.13nb1
+  status: outdated
+  summary: Polyglot tool version manager like asdf
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
 - repo: alt_p11
   srcname: mise
   binnames:
@@ -273,18 +210,102 @@
     - fallback-mnt-aosc@repology
   categories:
     - devel
+- repo: arch
+  subrepo: extra
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.10.25
+  origversion: 2026.10.25-1
+  status: newest
+  summary: The front-end to your dev env
+  licenses:
+    - MIT
+- repo: aur
+  srcname: mise-bin
+  binname: mise-bin
+  visiblename: mise-bin
+  version: 2026.10.25
+  origversion: 2026.10.25-1
+  status: newest
+  summary: dev tools, env vars, task runner
+  maintainers:
+    - czyt@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: mise-git
+  binname: mise-git
+  visiblename: mise-git
+  version: 2026.4.23.r0.g9225550
+  origversion: 2026.4.23.r0.g9225550-1
+  status: rolling
+  summary: The front-end to your dev env
+  maintainers:
+    - justbispo@aur
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise-doc
+  visiblename: mise-doc
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: mise
+  binname: mise-man
+  visiblename: mise-man
+  version: 2026.4.11
+  origversion: 2026.4.11-r1
+  status: outdated
+  summary: Development environment setup tool (manual pages)
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: mise
+  visiblename: mise-en-place
+  version: 2026.10.12
+  origversion: null
+  status: outdated
+  summary: The front-end to your dev env.
 - repo: exherbo
   subrepo: CleverCloud
   srcname: dev-util/mise
   visiblename: dev-util/mise
-  version: 2026.10.23
+  version: 2026.10.25
   origversion: null
-  status: outdated
+  status: newest
   summary: dev tools, env vars, task runner
   maintainers:
     - fallback-mnt-exherbo@repology
   categories:
     - dev-util
+- repo: scoop
+  subrepo: main
+  binname: mise
+  visiblename: mise
+  version: 2026.10.25
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: freebsd
   srcname: sysutils/mise
   binname: mise
@@ -418,9 +439,9 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.24
-  origversion: 2026.10.24-1
-  status: outdated
+  version: 2026.10.25
+  origversion: 2026.10.25-1
+  status: newest
   summary: The front-end to your dev env
   licenses:
     - MIT
@@ -448,27 +469,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_current
-  srcname: devel/mise
-  binname: mise
-  visiblename: devel/mise
-  version: 2026.9.13
-  origversion: 2026.9.13nb1
-  status: outdated
-  summary: Polyglot tool version manager like asdf
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-- repo: scoop
-  subrepo: main
-  binname: mise
-  visiblename: mise
-  version: 2026.10.25
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: slackbuilds
   srcname: development/mise
   visiblename: development/mise
