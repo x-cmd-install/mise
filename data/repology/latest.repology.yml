@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Polyglot runtime manager (asdf rust clone)
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -154,18 +161,6 @@
     - rtmongold@gmail.com
   licenses:
     - MIT
-- repo: pkgsrc_current
-  srcname: devel/mise
-  binname: mise
-  visiblename: devel/mise
-  version: 2026.9.13
-  origversion: 2026.9.13nb1
-  status: outdated
-  summary: Polyglot tool version manager like asdf
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
 - repo: alt_p11
   srcname: mise
   binnames:
@@ -188,10 +183,10 @@
     - mise
     - mise-debuginfo
   visiblename: mise
-  version: 2026.7.7
-  origversion: 2026.7.7-alt1
+  version: 2026.10.25
+  origversion: 2026.10.25-alt1
   status: outdated
-  summary: The front-end to your dev env
+  summary: Dev tools, env vars, and tasks in one CLI
   maintainers:
     - dmaks@altlinux.org
   licenses:
@@ -217,7 +212,7 @@
   visiblename: mise
   version: 2026.10.25
   origversion: 2026.10.25-1
-  status: newest
+  status: outdated
   summary: The front-end to your dev env
   licenses:
     - MIT
@@ -227,7 +222,7 @@
   visiblename: mise-bin
   version: 2026.10.25
   origversion: 2026.10.25-1
-  status: newest
+  status: outdated
   summary: dev tools, env vars, task runner
   maintainers:
     - czyt@aur
@@ -291,21 +286,12 @@
   visiblename: dev-util/mise
   version: 2026.10.25
   origversion: null
-  status: newest
+  status: outdated
   summary: dev tools, env vars, task runner
   maintainers:
     - fallback-mnt-exherbo@repology
   categories:
     - dev-util
-- repo: scoop
-  subrepo: main
-  binname: mise
-  visiblename: mise
-  version: 2026.10.25
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: freebsd
   srcname: sysutils/mise
   binname: mise
@@ -329,16 +315,9 @@
 - repo: homebrew
   srcname: mise
   visiblename: mise
-  version: 2026.10.25
+  version: 2026.11.0
   origversion: null
   status: newest
-  summary: Polyglot runtime manager (asdf rust clone)
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Polyglot runtime manager (asdf rust clone)
 - repo: macports
   srcname: sysutils/mise
@@ -441,7 +420,7 @@
   visiblename: mise
   version: 2026.10.25
   origversion: 2026.10.25-1
-  status: newest
+  status: outdated
   summary: The front-end to your dev env
   licenses:
     - MIT
@@ -469,6 +448,27 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
+- repo: pkgsrc_current
+  srcname: devel/mise
+  binname: mise
+  visiblename: devel/mise
+  version: 2026.9.13
+  origversion: 2026.9.13nb1
+  status: outdated
+  summary: Polyglot tool version manager like asdf
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: scoop
+  subrepo: main
+  binname: mise
+  visiblename: mise
+  version: 2026.11.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: slackbuilds
   srcname: development/mise
   visiblename: development/mise
@@ -483,7 +483,7 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.25
+  version: 2026.11.0
   origversion: null
   status: newest
   summary: dev tools, env vars, task runner
