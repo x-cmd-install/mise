@@ -1,10 +1,69 @@
-- repo: homebrew
+- repo: nix_stable_25_05
   srcname: mise
   visiblename: mise
-  version: HEAD
+  version: 2025.5.3
   origversion: null
-  status: rolling
-  summary: Polyglot runtime manager (asdf rust clone)
+  status: outdated
+  summary: Front-end to your dev env
+  maintainers:
+    - konrad.malik@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: mise
+  visiblename: mise
+  version: 2024.5.9
+  origversion: null
+  status: outdated
+  summary: The front-end to your dev env
+  maintainers:
+    - konrad.malik@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: mise
+  visiblename: mise
+  version: 2024.10.8
+  origversion: null
+  status: outdated
+  summary: Front-end to your dev env
+  maintainers:
+    - konrad.malik@gmail.com
+  licenses:
+    - MIT
+- repo: pkgsrc_current
+  srcname: devel/mise
+  binname: mise
+  visiblename: devel/mise
+  version: 2026.9.13
+  origversion: 2026.9.13nb1
+  status: outdated
+  summary: Polyglot tool version manager like asdf
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: scoop
+  subrepo: main
+  binname: mise
+  visiblename: mise
+  version: 2026.11.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: aosc
+  srcname: app-devel/mise
+  binname: mise
+  visiblename: mise
+  version: 2026.1.1
+  origversion: null
+  status: outdated
+  summary: Toolchain/development environment manager and task runner for multiple programming languages
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -193,26 +252,25 @@
     - MIT
   categories:
     - Development/Tools
-- repo: aosc
-  srcname: app-devel/mise
-  binname: mise
-  visiblename: mise
-  version: 2026.1.1
-  origversion: null
-  status: outdated
-  summary: Toolchain/development environment manager and task runner for multiple programming languages
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - devel
 - repo: arch
   subrepo: extra
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.10.25
-  origversion: 2026.10.25-1
-  status: outdated
+  version: 2026.11.1
+  origversion: 2026.11.1-1
+  status: newest
+  summary: The front-end to your dev env
+  licenses:
+    - MIT
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.11.1
+  origversion: 2026.11.1-2
+  status: newest
   summary: The front-end to your dev env
   licenses:
     - MIT
@@ -220,9 +278,9 @@
   srcname: mise-bin
   binname: mise-bin
   visiblename: mise-bin
-  version: 2026.10.25
-  origversion: 2026.10.25-1
-  status: outdated
+  version: 2026.11.1
+  origversion: 2026.11.1-1
+  status: newest
   summary: dev tools, env vars, task runner
   maintainers:
     - czyt@aur
@@ -284,7 +342,7 @@
   subrepo: CleverCloud
   srcname: dev-util/mise
   visiblename: dev-util/mise
-  version: 2026.10.25
+  version: 2026.11.0
   origversion: null
   status: outdated
   summary: dev tools, env vars, task runner
@@ -315,9 +373,16 @@
 - repo: homebrew
   srcname: mise
   visiblename: mise
-  version: 2026.11.0
+  version: 2026.11.1
   origversion: null
   status: newest
+  summary: Polyglot runtime manager (asdf rust clone)
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: HEAD
+  origversion: null
+  status: rolling
   summary: Polyglot runtime manager (asdf rust clone)
 - repo: macports
   srcname: sysutils/mise
@@ -344,39 +409,6 @@
   origversion: 2026.10.17-1
   status: outdated
   summary: The front-end to your dev env
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: mise
-  visiblename: mise
-  version: 2024.5.9
-  origversion: null
-  status: outdated
-  summary: The front-end to your dev env
-  maintainers:
-    - konrad.malik@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: mise
-  visiblename: mise
-  version: 2024.10.8
-  origversion: null
-  status: outdated
-  summary: Front-end to your dev env
-  maintainers:
-    - konrad.malik@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: mise
-  visiblename: mise
-  version: 2025.5.3
-  origversion: null
-  status: outdated
-  summary: Front-end to your dev env
-  maintainers:
-    - konrad.malik@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_25_11
@@ -448,27 +480,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_current
-  srcname: devel/mise
-  binname: mise
-  visiblename: devel/mise
-  version: 2026.9.13
-  origversion: 2026.9.13nb1
-  status: outdated
-  summary: Polyglot tool version manager like asdf
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-- repo: scoop
-  subrepo: main
-  binname: mise
-  visiblename: mise
-  version: 2026.11.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: slackbuilds
   srcname: development/mise
   visiblename: development/mise
@@ -483,7 +494,7 @@
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.11.0
+  version: 2026.11.1
   origversion: null
   status: newest
   summary: dev tools, env vars, task runner
