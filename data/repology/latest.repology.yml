@@ -1,34 +1,15 @@
-- repo: pkgsrc_current
+- repo: pkgsrc_2026_2
   srcname: devel/mise
   binname: mise
   visiblename: devel/mise
-  version: 2026.9.13
-  origversion: 2026.9.13nb1
+  version: 2026.6.3
+  origversion: null
   status: outdated
   summary: Polyglot tool version manager like asdf
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: scoop
-  subrepo: main
-  binname: mise
-  visiblename: mise
-  version: 2026.11.6
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: development/mise
-  visiblename: development/mise
-  version: 2026.10.8
-  origversion: null
-  status: outdated
-  maintainers:
-    - boxjake.romero@protonmail.com
-  categories:
-    - development
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -244,8 +225,8 @@
   srcname: mise-bin
   binname: mise-bin
   visiblename: mise-bin
-  version: 2026.11.6
-  origversion: 2026.11.6-1
+  version: 2026.11.7
+  origversion: 2026.11.7-1
   status: newest
   summary: dev tools, env vars, task runner
   maintainers:
@@ -304,6 +285,18 @@
   origversion: null
   status: outdated
   summary: The front-end to your dev env.
+- repo: pkgsrc_2026_3
+  srcname: devel/mise
+  binname: mise
+  visiblename: devel/mise
+  version: 2026.9.1
+  origversion: null
+  status: outdated
+  summary: Polyglot tool version manager like asdf
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
 - repo: exherbo
   subrepo: CleverCloud
   srcname: dev-util/mise
@@ -322,7 +315,7 @@
   visiblename: sysutils/mise
   version: 2026.11.6
   origversion: null
-  status: newest
+  status: outdated
   summary: Runtime Executor (asdf rust clone)
   maintainers:
     - yuri@freebsd.org
@@ -339,7 +332,7 @@
 - repo: homebrew
   srcname: mise
   visiblename: mise
-  version: 2026.11.6
+  version: 2026.11.7
   origversion: null
   status: newest
   summary: Polyglot runtime manager (asdf rust clone)
@@ -356,7 +349,7 @@
   visiblename: mise
   version: 2026.11.6
   origversion: null
-  status: newest
+  status: outdated
   summary: dev tools, env vars, task runner (formerly called 'rtx')
   maintainers:
     - mislink@github
@@ -477,35 +470,42 @@
   summary: The front-end to your dev env
   licenses:
     - MIT
-- repo: pkgsrc_2026_2
+- repo: pkgsrc_current
   srcname: devel/mise
   binname: mise
   visiblename: devel/mise
-  version: 2026.6.3
-  origversion: null
+  version: 2026.9.13
+  origversion: 2026.9.13nb1
   status: outdated
   summary: Polyglot tool version manager like asdf
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_2026_3
-  srcname: devel/mise
+- repo: scoop
+  subrepo: main
   binname: mise
-  visiblename: devel/mise
-  version: 2026.9.1
+  visiblename: mise
+  version: 2026.11.7
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: development/mise
+  visiblename: development/mise
+  version: 2026.10.8
   origversion: null
   status: outdated
-  summary: Polyglot tool version manager like asdf
   maintainers:
-    - pkgsrc-users@netbsd.org
+    - boxjake.romero@protonmail.com
   categories:
-    - devel
+    - development
 - repo: termux
   srcname: mise
   binname: mise
   visiblename: mise
-  version: 2026.11.6
+  version: 2026.11.7
   origversion: null
   status: newest
   summary: dev tools, env vars, task runner
