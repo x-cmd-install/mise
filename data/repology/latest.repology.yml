@@ -268,7 +268,7 @@
 - repo: chocolatey
   binname: mise
   visiblename: mise-en-place
-  version: 2026.10.12
+  version: 2026.10.15
   origversion: null
   status: outdated
   summary: The front-end to your dev env.
@@ -322,9 +322,9 @@
   srcname: sysutils/mise
   binname: mise
   visiblename: mise
-  version: 2026.11.7
+  version: 2026.11.8
   origversion: null
-  status: outdated
+  status: newest
   summary: dev tools, env vars, task runner (formerly called 'rtx')
   maintainers:
     - mislink@github
