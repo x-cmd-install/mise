@@ -1,25 +1,15 @@
-- repo: gnuguix
-  srcname: mise
+- repo: pkgsrc_current
+  srcname: devel/mise
   binname: mise
-  visiblename: mise
-  version: 2026.4.4
-  origversion: null
+  visiblename: devel/mise
+  version: 2026.9.13
+  origversion: 2026.9.13nb2
   status: outdated
-  summary: Polyglot version manager, task runner, and environment manager
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: 2026.11.12
-  origversion: null
-  status: newest
-  summary: Polyglot runtime manager (asdf rust clone)
-- repo: homebrew
-  srcname: mise
-  visiblename: mise
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Polyglot runtime manager (asdf rust clone)
+  summary: Polyglot tool version manager like asdf
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
 - repo: alpine_3_20
   subrepo: community
   srcname: mise
@@ -279,7 +269,7 @@
 - repo: chocolatey
   binname: mise
   visiblename: mise-en-place
-  version: 2026.10.15
+  version: 2026.10.21
   origversion: null
   status: outdated
   summary: The front-end to your dev env.
@@ -307,13 +297,35 @@
     - yuri@freebsd.org
   categories:
     - sysutils
+- repo: gnuguix
+  srcname: mise
+  binname: mise
+  visiblename: mise
+  version: 2026.4.4
+  origversion: null
+  status: outdated
+  summary: Polyglot version manager, task runner, and environment manager
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: 2026.11.12
+  origversion: null
+  status: newest
+  summary: Polyglot runtime manager (asdf rust clone)
+- repo: homebrew
+  srcname: mise
+  visiblename: mise
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Polyglot runtime manager (asdf rust clone)
 - repo: macports
   srcname: sysutils/mise
   binname: mise
   visiblename: mise
-  version: 2026.11.10
+  version: 2026.11.12
   origversion: null
-  status: outdated
+  status: newest
   summary: dev tools, env vars, task runner (formerly called 'rtx')
   maintainers:
     - mislink@github
@@ -458,18 +470,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_current
-  srcname: devel/mise
-  binname: mise
-  visiblename: devel/mise
-  version: 2026.9.13
-  origversion: 2026.9.13nb2
-  status: outdated
-  summary: Polyglot tool version manager like asdf
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
 - repo: scoop
   subrepo: main
   binname: mise
@@ -502,12 +502,12 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: mise
-  binname: rtx
-  visiblename: rtx
+  binname: mise
+  visiblename: mise
   version: 2026.10.17
   origversion: 2026.10.17_1
   status: outdated
-  summary: Polyglot runtime manager (asdf rust clone) (transitional dummy package)
+  summary: Polyglot runtime manager (asdf rust clone)
   maintainers:
     - daniel@teddydd.me
   licenses:
@@ -515,12 +515,12 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: mise
-  binname: mise
-  visiblename: mise
+  binname: rtx
+  visiblename: rtx
   version: 2026.10.17
   origversion: 2026.10.17_1
   status: outdated
-  summary: Polyglot runtime manager (asdf rust clone)
+  summary: Polyglot runtime manager (asdf rust clone) (transitional dummy package)
   maintainers:
     - daniel@teddydd.me
   licenses:
