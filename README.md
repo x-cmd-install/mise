@@ -14,7 +14,7 @@ x install mise
 
 ## Code insight
 
-Total: **804,393** lines of code across **3902** files in the top 5 languages.
+Total: **804,392** lines of code across **3902** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -38,22 +38,22 @@ Total: **804,393** lines of code across **3902** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 36,452 · **Forks**: 1,553 · **Open issues**: 2,006 · **Contributors**: 1,083
+- **Stars**: 36,498 · **Forks**: 1,554 · **Open issues**: 2,013 · **Contributors**: 1,083
 
 ## Totals (cumulative)
 
-- **Releases**: 683 · **Merged PRs**: 9243 · **Open PRs**: 10 · **Closed issues**: 2002 · **Open issues**: 4 · **Commits**: 10917
+- **Releases**: 683 · **Merged PRs**: 9248 · **Open PRs**: 38 · **Closed issues**: 2002 · **Open issues**: 11 · **Commits**: 10922
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 21 | 598 | 8 | 264 | 4 | 983 |
-| last60d | 2026-09-25 | 45 | 1511 | 10 | 424 | 4 | 2534 |
-| 90d | 2026-08-26 | 62 | 2288 | 10 | 433 | 4 | 3667 |
-| last180d | 2026-05-28 | 100 | 3950 | 10 | 433 | 4 | 5638 |
-| 360d | 2025-11-29 | 100 | 5684 | 10 | 433 | 4 | 8530 |
-| last720d | 2024-12-04 | 100 | 7491 | 10 | 688 | 4 | 7884 |
+| 30d | 2026-10-26 | 21 | 576 | 36 | 248 | 11 | 991 |
+| last60d | 2026-09-26 | 44 | 1492 | 38 | 418 | 11 | 2542 |
+| 90d | 2026-08-27 | 61 | 2260 | 38 | 433 | 11 | 3675 |
+| last180d | 2026-05-29 | 100 | 3942 | 38 | 433 | 11 | 5646 |
+| 360d | 2025-11-30 | 100 | 5685 | 38 | 433 | 11 | 8538 |
+| last720d | 2024-12-05 | 100 | 7485 | 38 | 679 | 11 | 7879 |
 
 ## Release assets
 
@@ -115,18 +115,6 @@ Total: **804,393** lines of code across **3902** files in the top 5 languages.
 | [SHASUMS512.txt.minisig](https://github.com/jdx/mise/releases/download/v2026.11.14/SHASUMS512.txt.minisig) | 309 B | `other` |
 | [v2026.11.14.tar.gz.sig](https://github.com/jdx/mise/releases/download/v2026.11.14/v2026.11.14.tar.gz.sig) | 566 B | `other` |
 
-## Distribution status
-
-Reported by **45** distros on [repology.org](https://repology.org/project/mise). **4** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `2026.11.12` | ⚠️ outdated |
-| Homebrew | `2026.11.13` | ✅ latest |
-| Nix unstable | `2026.10.17` | ⚠️ outdated |
-| Void | `2026.10.17` | ⚠️ outdated |
-| Alpine edge | `2026.10.24` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for mise lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mise` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -136,4 +124,4 @@ Install metadata for mise lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:32:10Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:36:48Z._
