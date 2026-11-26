@@ -33,27 +33,27 @@ Total: **804,392** lines of code across **3902** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v2026.11.14` (2026-11-24)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-26
 - **Assets in release**: 55
 
 ## Popularity
 
-- **Stars**: 36,498 · **Forks**: 1,554 · **Open issues**: 2,013 · **Contributors**: 1,083
+- **Stars**: 36,536 · **Forks**: 1,556 · **Open issues**: 2,018 · **Contributors**: 1,083
 
 ## Totals (cumulative)
 
-- **Releases**: 683 · **Merged PRs**: 9248 · **Open PRs**: 38 · **Closed issues**: 2002 · **Open issues**: 11 · **Commits**: 10922
+- **Releases**: 683 · **Merged PRs**: 9249 · **Open PRs**: 38 · **Closed issues**: 2002 · **Open issues**: 16 · **Commits**: 10923
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 21 | 576 | 36 | 248 | 11 | 991 |
-| last60d | 2026-09-26 | 44 | 1492 | 38 | 418 | 11 | 2542 |
-| 90d | 2026-08-27 | 61 | 2260 | 38 | 433 | 11 | 3675 |
-| last180d | 2026-05-29 | 100 | 3942 | 38 | 433 | 11 | 5646 |
-| 360d | 2025-11-30 | 100 | 5685 | 38 | 433 | 11 | 8538 |
-| last720d | 2024-12-05 | 100 | 7485 | 38 | 679 | 11 | 7879 |
+| 30d | 2026-10-27 | 20 | 538 | 36 | 235 | 16 | 992 |
+| last60d | 2026-09-27 | 44 | 1439 | 38 | 413 | 16 | 2543 |
+| 90d | 2026-08-28 | 61 | 2232 | 38 | 433 | 16 | 3676 |
+| last180d | 2026-05-30 | 100 | 3935 | 38 | 433 | 16 | 5647 |
+| 360d | 2025-12-01 | 100 | 5684 | 38 | 433 | 16 | 8539 |
+| last720d | 2024-12-06 | 100 | 7480 | 38 | 679 | 16 | 7868 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for mise lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T09:36:48Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T09:40:44Z._
