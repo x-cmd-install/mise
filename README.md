@@ -38,22 +38,22 @@ Total: **804,392** lines of code across **3902** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 36,536 · **Forks**: 1,556 · **Open issues**: 2,018 · **Contributors**: 1,083
+- **Stars**: 36,565 · **Forks**: 1,557 · **Open issues**: 2,021 · **Contributors**: 1,083
 
 ## Totals (cumulative)
 
-- **Releases**: 683 · **Merged PRs**: 9249 · **Open PRs**: 38 · **Closed issues**: 2002 · **Open issues**: 16 · **Commits**: 10923
+- **Releases**: 683 · **Merged PRs**: 9249 · **Open PRs**: 38 · **Closed issues**: 2002 · **Open issues**: 19 · **Commits**: 10923
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 20 | 538 | 36 | 235 | 16 | 992 |
-| last60d | 2026-09-27 | 44 | 1439 | 38 | 413 | 16 | 2543 |
-| 90d | 2026-08-28 | 61 | 2232 | 38 | 433 | 16 | 3676 |
-| last180d | 2026-05-30 | 100 | 3935 | 38 | 433 | 16 | 5647 |
-| 360d | 2025-12-01 | 100 | 5684 | 38 | 433 | 16 | 8539 |
-| last720d | 2024-12-06 | 100 | 7480 | 38 | 679 | 16 | 7868 |
+| 30d | 2026-10-28 | 19 | 514 | 36 | 229 | 19 | 992 |
+| last60d | 2026-09-28 | 43 | 1406 | 38 | 409 | 19 | 2543 |
+| 90d | 2026-08-29 | 61 | 2211 | 38 | 433 | 19 | 3676 |
+| last180d | 2026-05-31 | 100 | 3911 | 38 | 433 | 19 | 5647 |
+| 360d | 2025-12-02 | 100 | 5684 | 38 | 433 | 19 | 8539 |
+| last720d | 2024-12-07 | 100 | 7474 | 38 | 678 | 19 | 7861 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for mise lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T09:40:44Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T10:17:33Z._
